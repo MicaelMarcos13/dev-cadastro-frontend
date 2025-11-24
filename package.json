@@ -2,13 +2,15 @@
   "name": "dev-cadastro",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/MicaelMarcos13/Cadastro_de_Usuarios.git",
+  "homepage": "https://MicaelMarcos13.github.io/dev-cadastro-novo",
+  "repository": "https://github.com/MicaelMarcos13/dev-cadastro-novo",
   "author": "MicaelMarcos13 <mmjdamaceno@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
