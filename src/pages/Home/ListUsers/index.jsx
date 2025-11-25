@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import Button from '../../../components/Button';
 import TopBackground from '../../../components/TopBackGround';
 import { AvatarUser, CardUsers, ContainerUsers, Containner, Title, TrashIcon } from './styles';
-import trash from '../../../../src/assets/trash.svg'
+import trash from '../../../assets/trash.svg'
 
 
 function ListUsers() {
