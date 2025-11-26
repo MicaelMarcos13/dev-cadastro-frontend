@@ -30,7 +30,7 @@ const navigate = useNavigate()
       name: inputName.current.value,
     })
 
-   navigate('/Lista-de-usuários')
+   navigate('/Lista-de-usuarios')
 
   }catch (error) {
     console.error('Erro ao cadastrar usuário:', error)
@@ -77,7 +77,7 @@ const navigate = useNavigate()
       </Form>
 
        
-      <Button type="button" onClick={() => navigate('/Lista-de-usuários')} > Ver Lista de Usuários</Button>
+      <Button type="button" onClick={() => navigate('/Lista-de-usuarios')} > Ver Lista de Usuários</Button>
 
 
     </Container>

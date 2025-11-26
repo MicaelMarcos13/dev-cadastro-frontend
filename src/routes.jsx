@@ -1,7 +1,7 @@
 import { createHashRouter } from 'react-router-dom'
-import Home from './pages/Home/Home.jsx'
-import ListUsers from './pages/ListUsers/ListUsers.jsx'
-import ErrorPage from './pages/ErrorPage.jsx'
+import Home from "./pages/Home"
+import ListUsers from './pages/Home/ListUsers'
+import ErrorPage from './pages/Home/ErroPage'
 
 const router = createHashRouter([
   {
@@ -10,7 +10,7 @@ const router = createHashRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: '/Lista-de-usuários',
+    path: '/Lista-de-usuarios',
     element: <ListUsers />,
     errorElement: <ErrorPage />
   }
