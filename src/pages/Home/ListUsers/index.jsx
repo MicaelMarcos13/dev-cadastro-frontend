@@ -1,4 +1,5 @@
 
+
 import { useEffect, useState } from 'react'
 import api from '../../../services/api';
 import { useNavigate } from 'react-router-dom';
@@ -35,7 +36,9 @@ function ListUsers() {
     return (
         <Containner>
             <TopBackground />
-            <Title>Lista de usuários</Title>
+            <h1>Total de usuários: {users.length}</h1>
+
+            {/*<Title>Lista de usuários</Title>*/}
 
             <ContainerUsers>
                 {users.map(user => (
